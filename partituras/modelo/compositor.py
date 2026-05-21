@@ -259,5 +259,6 @@ class Compositor:
     def transformar(self, partitura: str) -> str:
         return self.interprete.transformar(partitura)
 
+
     def revertir(self, partitura: str) -> str:
         return self.interprete.revertir(partitura)
